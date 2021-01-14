@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat:400,700&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+        <form>
+            <h1> Register!</h1>
+
+            <div class="form-box">
+                <label for="username">Login:</label>
+                <input type="text" id="username" placeholder="Enter your login">
+                <p class="error-text">error</p>
+            </div>
+
+            <div class="form-box">
+                <label for="password">Password:</label>
+                <input type=" text" id="password" placeholder="Enter password:">
+                <p class="error-text">error</p>
+            </div>
+
+
+            <div class="form-box">
+                <label for="password2">Powtórz hasło:</label>
+                <input type="text" id="password2" placeholder="Repeat password:">
+                <p class="error-text">error</p>
+            </div>
+
+
+            <div class="form-box">
+                <label for="password3"> E-mail:</label>
+                <input type="mail" id="email" placeholder="Enter e-mail:">
+                <p class="error-text">error</p>
+            </div>
+
+
+            <div class="control-buttons">
+                <button class="clear">Clear</button>
+                <button class="send">Send</button>
+            </div>
+
+
+            <div class="popup ">
+                <p>The form has been sent</p>
+                <button class="close">Close</button>
+            </div>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
