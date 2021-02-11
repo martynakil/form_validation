@@ -17,7 +17,7 @@ if something goes wrong, you will be informed immediately!
 * forEach loops
 * Regular expressions 
 * comparison operator
-* DOM Elements (searching for elements from the DOM : addEventListener, querySelector, getElementsByClassNam)
+* DOM Elements (searching for elements from the DOM : querySelector, getElementsByClassNam)
 * Events (addEventListener)
 
 
